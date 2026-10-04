@@ -1,0 +1,395 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Heat Worksheet – Class 7 Physics</title>
+<style>
+:root{--ink:#1d2433;--muted:#5b6478;--bg:#fbf7f3;--card:#fff;--line:#eadfd5;--brand:#c2410c;--brand-soft:#ffede2;--good:#177a4b;--good-soft:#e5f6ed;--warn:#8a5a00;--warn-soft:#fff6d9;--rule:#e5d6c8}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+.wrap{max-width:860px;margin:0 auto;padding:0 16px 60px}
+header{background:linear-gradient(135deg,#9a3412,#ea580c);color:#fff;padding:32px 16px 28px}
+header .wrap{padding-bottom:0}
+header h1{margin:0 0 4px;font-size:1.9rem;line-height:1.2}
+header p{margin:0;opacity:.92}
+.meta{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:10px;margin-top:18px}
+.meta label{font-size:.8rem;opacity:.9;display:block}
+.meta input{width:100%;padding:8px 10px;border:0;border-radius:8px;font:inherit}
+nav{position:sticky;top:0;background:#fff;border-bottom:1px solid var(--line);z-index:5}
+nav .wrap{display:flex;gap:6px;overflow-x:auto;padding:8px 16px}
+nav a{white-space:nowrap;text-decoration:none;color:var(--brand);font-size:.9rem;padding:5px 11px;border-radius:99px;background:var(--brand-soft)}
+section{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px 22px;margin-top:22px}
+h2{margin:0 0 12px;font-size:1.35rem;color:var(--brand)}
+h3{margin:18px 0 6px;font-size:1.05rem}
+.marks{float:right;font-size:.8rem;background:var(--brand-soft);color:var(--brand);padding:2px 9px;border-radius:99px;font-weight:600}
+.tip{background:var(--warn-soft);border-left:4px solid var(--warn);padding:10px 14px;border-radius:8px;margin:12px 0}
+.ok{background:var(--good-soft);border-left:4px solid var(--good);padding:10px 14px;border-radius:8px;margin:12px 0}
+table{border-collapse:collapse;width:100%;margin:10px 0;font-size:.95rem}
+th,td{border:1px solid var(--line);padding:7px 10px;text-align:left;vertical-align:top}
+th{background:var(--brand-soft)}
+.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:10px;margin:12px 0}
+.step{border:1px solid var(--line);border-radius:10px;padding:10px 12px;background:#fffaf6}
+.step b{display:block;color:var(--brand)}
+.formula{font-size:1.1rem;text-align:center;background:var(--brand-soft);border-radius:10px;padding:10px;margin:10px 0;font-weight:600}
+.q{margin:18px 0 6px;font-weight:600}
+.q small{font-weight:400;color:var(--muted)}
+textarea{width:100%;display:block;border:1px solid var(--line);border-radius:8px;padding:6px 10px;font:inherit;line-height:28px;resize:vertical;min-height:84px;
+ background:repeating-linear-gradient(transparent,transparent 27px,var(--rule) 28px);background-attachment:local}
+textarea.big{min-height:140px}
+.fill{display:inline-block;min-width:110px;border-bottom:2px solid var(--ink);margin:0 4px}
+details{border:1px solid var(--line);border-radius:10px;margin:10px 0;background:#fff}
+summary{cursor:pointer;padding:10px 14px;font-weight:600;color:var(--good)}
+details .body{padding:2px 16px 12px}
+.ans{background:var(--good-soft);border-radius:8px;padding:8px 12px;margin:6px 0}
+.cols{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+@media(max-width:620px){.cols{grid-template-columns:1fr}section{padding:16px}}
+button{font:inherit;background:var(--brand);color:#fff;border:0;border-radius:8px;padding:8px 16px;cursor:pointer}
+button.alt{background:#fff;color:var(--brand);border:1px solid var(--brand)}
+.tools{display:flex;gap:10px;flex-wrap:wrap;margin-top:22px}
+ul.tick{list-style:none;padding-left:0}
+ul.tick li{margin:4px 0}
+ul.tick li::before{content:"☐ ";color:var(--brand)}
+footer{text-align:center;color:var(--muted);font-size:.85rem;margin-top:30px}
+@media print{
+ body{background:#fff;font-size:12pt}nav,.tools{display:none}
+ header{background:#fff;color:#000;padding:0}header .meta{display:none}
+ section{border:1px solid #999;margin-top:12px}
+ textarea{border:0;overflow:visible}details{display:none}
+ .noprint{display:none}
+}
+</style>
+</head>
+<body>
+<header>
+ <div class="wrap">
+  <h1>Heat and Temperature</h1>
+  <p>Class 7 Physics · Scoring Worksheet for Subjective (Written) Exams</p>
+  <div class="meta">
+   <div><label for="nm">Name</label><input id="nm" placeholder="Student name"></div>
+   <div><label for="sec">Class / Section</label><input id="sec" placeholder="7 - __"></div>
+   <div><label for="dt">Date</label><input id="dt" type="date"></div>
+  </div>
+ </div>
+</header>
+<nav><div class="wrap">
+ <a href="#how">1 · How to Score</a><a href="#learn">2 · Learn</a><a href="#compare">3 · Compare</a>
+ <a href="#model">4 · Model Answers</a><a href="#practice">5 · Practice</a><a href="#key">6 · Answer Key</a><a href="#check">7 · Checklist</a>
+</div></nav>
+
+<div class="wrap">
+
+<section id="how">
+ <h2>1 · How to Write a Full-Marks Answer</h2>
+ <p>Teachers give marks for <b>steps and keywords</b>, not only the final answer. A correct answer with no working can lose half the marks.</p>
+ <h3>A. Numerical problems (temperature conversions, faulty thermometers) — 3–4 marks</h3>
+ <div class="steps">
+  <div class="step"><b>1 · Given</b>Write the known value with its scale and unit (°C, °F, K).</div>
+  <div class="step"><b>2 · Formula</b>Write the formula in symbols first.</div>
+  <div class="step"><b>3 · Substitute</b>Put in the numbers, one line at a time.</div>
+  <div class="step"><b>4 · Answer</b>Final value + <b>unit/scale</b>. Underline it.</div>
+ </div>
+ <h3>B. Theory questions</h3>
+ <table>
+  <tr><th>Question word</th><th>What to write</th><th>Marks tip</th></tr>
+  <tr><td>Define</td><td>One exact sentence with the keyword (e.g. “degree of hotness”, “direct contact”).</td><td>Keyword = mark</td></tr>
+  <tr><td>Differentiate</td><td>A two-column table with at least 3 points.</td><td>1 mark per point</td></tr>
+  <tr><td>Why? / Give reason</td><td>Statement + “because” + example.</td><td>Reason + example</td></tr>
+  <tr><td>Explain</td><td>Principle → example → conclusion.</td><td>Use a daily-life example</td></tr>
+  <tr><td>Opinion / “Which is better?”</td><td>Give your choice, then 2–3 reasons (safety, accuracy, ease).</td><td>Reasons are marked</td></tr>
+ </table>
+ <div class="tip"><b>Mark-losing mistakes:</b> mixing up heat (energy, joule) and temperature (hotness, °C/K) · forgetting the unit or scale · using 5/9 and 9/5 the wrong way round · naming the mode of heat transfer but giving no reason · not showing the formula.</div>
+</section>
+
+<section id="learn">
+ <h2>2 · Learn These (Key Points)</h2>
+ <table>
+  <tr><th>Term</th><th>Exam-ready answer</th></tr>
+  <tr><td>Heat</td><td>A form of energy that gives us the sensation of hotness or coldness. SI unit: joule (J). CGS unit: calorie (cal). 1 cal = 4.18 J; 1 kcal = 4180 J.</td></tr>
+  <tr><td>Temperature</td><td>The degree of hotness or coldness of an object. SI unit: kelvin (K); commonly measured in °C.</td></tr>
+  <tr><td>Direction of heat flow</td><td>Heat always flows from a body at higher temperature to a body at lower temperature until equilibrium is reached. At equilibrium there is no flow of heat.</td></tr>
+  <tr><td>Rate of heat flow</td><td>Depends on the difference in temperature of the two bodies.</td></tr>
+  <tr><td>Principle of calorimetry</td><td>Heat energy lost by the hot body = heat energy gained by the cold body.</td></tr>
+  <tr><td>Effects of heat</td><td>Change in temperature · change in dimensions · change in state · chemical change.</td></tr>
+  <tr><td>Thermometer</td><td>A device used to measure temperature. It measures temperature, <b>not</b> heat. Principle: liquids expand when heated and contract when cooled.</td></tr>
+  <tr><td>Lower fixed point (LFP)</td><td>Melting point of pure ice at normal atmospheric pressure (76 cm of mercury).</td></tr>
+  <tr><td>Upper fixed point (UFP)</td><td>Boiling point of pure water at normal atmospheric pressure.</td></tr>
+  <tr><td>Conduction</td><td>Transfer of energy from one particle to another, the particles being in <b>direct contact</b>. Mainly in solids (best in metals).</td></tr>
+  <tr><td>Convection</td><td>Movement of fluid molecules (liquids and gases) from higher temperature regions to lower temperature regions. Hot, less dense fluid rises; cool, dense fluid sinks.</td></tr>
+  <tr><td>Radiation</td><td>Transfer of heat by electromagnetic waves. <b>No medium needed</b>, so it can occur through a vacuum.</td></tr>
+ </table>
+
+ <h3>Parts of a thermometer</h3>
+ <p>Glass <b>bulb</b> (holds mercury/coloured alcohol) → narrow <b>capillary tube</b> (so even a small change moves the liquid) → <b>stem</b> with the scale (°C or °F). It is sealed so liquid does not spill and air does not enter. Always read it at eye level.</p>
+
+ <h3>Temperature scales</h3>
+ <table>
+  <tr><th>Scale</th><th>LFP (ice)</th><th>UFP (steam)</th><th>Divisions</th></tr>
+  <tr><td>Celsius</td><td>0 °C</td><td>100 °C</td><td>100</td></tr>
+  <tr><td>Fahrenheit</td><td>32 °F</td><td>212 °F</td><td>180</td></tr>
+  <tr><td>Reaumur</td><td>0 °R</td><td>80 °R</td><td>80</td></tr>
+  <tr><td>Kelvin</td><td>273 K</td><td>373 K</td><td>100</td></tr>
+ </table>
+ <div class="formula">(C − 0)/100 = (F − 32)/180 = (R − 0)/80 = (K − 273)/100</div>
+ <div class="formula">C/5 = (F − 32)/9 = R/4 = (K − 273)/5</div>
+ <div class="formula">K = °C + 273 &nbsp;|&nbsp; F = (9/5)C + 32 &nbsp;|&nbsp; C = (5/9)(F − 32)</div>
+ <div class="formula">Faulty thermometer: Correct °C = (Reading − LFP) ÷ (UFP − LFP) × 100</div>
+
+ <h3>Why mercury? Why alcohol?</h3>
+ <div class="cols">
+  <table><tr><th>Mercury</th></tr>
+   <tr><td>Needs very little heat to expand</td></tr><tr><td>Boils at 357 °C, freezes at −39 °C (wide range)</td></tr>
+   <tr><td>Does not stick to glass</td></tr><tr><td>Opaque and shiny, easy to see; expands uniformly</td></tr></table>
+  <table><tr><th>Alcohol</th></tr>
+   <tr><td>Freezing point below −100 °C (good for very cold places)</td></tr><tr><td>Expands more than mercury for the same change</td></tr>
+   <tr><td>Can be brightly coloured and easily seen</td></tr><tr><td>Safer than toxic mercury</td></tr></table>
+ </div>
+
+ <h3>Types of thermometers</h3>
+ <table>
+  <tr><th>Type</th><th>Key facts</th></tr>
+  <tr><td>Clinical</td><td>Measures human body temperature. Range 35–42 °C (95–108 °F). Has a <b>kink/constriction</b> so mercury does not fall back after use. Normal body temperature 36.9 °C = 98.4 °F.</td></tr>
+  <tr><td>Laboratory</td><td>Measures liquids and other substances. Range −10 °C to 110 °C. No kink, so not for body temperature.</td></tr>
+  <tr><td>Six's max–min</td><td>Records the highest and lowest temperature of a day (weather stations). Invented by James Six.</td></tr>
+  <tr><td>Digital</td><td>Electronic sensor, numerical display, no mercury. Safe, quick, easy to read.</td></tr>
+  <tr><td>Thermistor</td><td>Uses a resistor whose electrical resistance changes with temperature.</td></tr>
+ </table>
+
+ <h3>Conductors and insulators</h3>
+ <table>
+  <tr><th>Conductors</th><th>Insulators</th></tr>
+  <tr><td>Allow heat to pass easily</td><td>Do not allow heat to pass easily</td></tr>
+  <tr><td>Particles closely packed; free electrons in metals</td><td>Particles loosely arranged</td></tr>
+  <tr><td>Copper, iron, aluminium, steel</td><td>Wood, plastic, rubber, thermocol</td></tr>
+  <tr><td>Cooking utensils</td><td>Handles of vessels, woollen clothes, thermocol ice boxes</td></tr>
+ </table>
+</section>
+
+<section id="compare">
+ <h2>3 · “Differentiate” Tables (Very Common Question)</h2>
+ <table>
+  <tr><th>Heat</th><th>Temperature</th></tr>
+  <tr><td>A form of energy</td><td>Degree of hotness or coldness</td></tr>
+  <tr><td>Cause of the sensation of hot/cold</td><td>Measure of how hot/cold a body is</td></tr>
+  <tr><td>Unit: joule (SI), calorie (CGS)</td><td>Unit: kelvin (SI), °C</td></tr>
+  <tr><td>Depends on amount of matter and temperature difference</td><td>Measured by a thermometer</td></tr>
+ </table>
+ <table>
+  <tr><th>Conduction</th><th>Convection</th><th>Radiation</th></tr>
+  <tr><td>Particles in direct contact</td><td>Movement of fluid molecules</td><td>Electromagnetic waves</td></tr>
+  <tr><td>Medium needed (mostly solids)</td><td>Medium needed (liquids, gases)</td><td>No medium needed</td></tr>
+  <tr><td>Ironing clothes; hand to ice cube; hot sand</td><td>Boiling water; sea currents; blood circulation</td><td>Sun's rays; microwave oven; heat from fire</td></tr>
+ </table>
+ <table>
+  <tr><th>Clinical thermometer</th><th>Laboratory thermometer</th></tr>
+  <tr><td>Measures body temperature</td><td>Measures liquids/substances</td></tr>
+  <tr><td>Range 35–42 °C</td><td>Range −10 to 110 °C</td></tr>
+  <tr><td>Has a kink in the tube</td><td>No kink</td></tr>
+ </table>
+ <div class="ok"><b>States of matter (for reasons):</b> Solids – fixed shape and volume, particles tightly packed, only vibrate. Liquids – fixed volume, no fixed shape, particles slide over each other. Gases – no fixed shape or volume, particles far apart and move freely.</div>
+ <div class="tip"><b>Forced vs natural convection:</b> natural – caused only by differences in temperature (warm air rising near a radiator). Forced – uses a fan or pump (water pumped in a radiator).</div>
+</section>
+
+<section id="model">
+ <h2>4 · Model Answers (Study How Marks Are Earned)</h2>
+
+ <details open><summary>Model 1 — °C to °F (3 marks)</summary><div class="body">
+  <p><b>Q.</b> Convert −10 °C into the Fahrenheit scale.</p>
+  <p>Given: C = −10 °C <i>(1)</i><br>
+  Formula: F = (9/5)C + 32 <i>(1)</i><br>
+  F = (9/5)(−10) + 32 = −18 + 32 = <b>14 °F</b> <i>(1)</i></p>
+ </div></details>
+
+ <details><summary>Model 2 — Show −40° is the same on both scales (4 marks)</summary><div class="body">
+  <p>Let C = F = x. <i>(1)</i><br>
+  Formula: C/5 = (F − 32)/9 <i>(1)</i><br>
+  x/5 = (x − 32)/9 ⇒ 9x = 5x − 160 ⇒ 4x = −160 <i>(1)</i><br>
+  x = <b>−40</b>. So −40 °C = −40 °F. <i>(1)</i></p>
+ </div></details>
+
+ <details><summary>Model 3 — Faulty thermometer (4 marks)</summary><div class="body">
+  <p><b>Q.</b> A faulty thermometer has its fixed points marked as 10° and 110°. It reads 60° for a body. Find the correct temperature on the Celsius scale.</p>
+  <p>LFP = 10, UFP = 110, reading = 60 <i>(1)</i><br>
+  Correct °C = (Reading − LFP)/(UFP − LFP) × 100 <i>(1)</i><br>
+  = (60 − 10)/(110 − 10) × 100 = 50/100 × 100 <i>(1)</i><br>
+  = <b>50 °C</b> <i>(1)</i></p>
+ </div></details>
+
+ <details><summary>Model 4 — Where do Kelvin and Fahrenheit readings match? (4 marks)</summary><div class="body">
+  <p>Let K = F = x. (K − 273)/100 = (F − 32)/180 <i>(1)</i><br>
+  180(x − 273) = 100(x − 32) <i>(1)</i><br>
+  180x − 49140 = 100x − 3200 ⇒ 80x = 45940 <i>(1)</i><br>
+  x = <b>574.25</b>, so about 574 K = 574 °F <i>(1)</i></p>
+ </div></details>
+
+ <details><summary>Model 5 — Opinion question (3 marks)</summary><div class="body">
+  <p><b>Q.</b> Which thermometer is better for schools: mercury, alcohol or digital? Why?</p>
+  <p>Digital thermometers are better for schools <i>(1)</i> because they are safe (no toxic mercury, nothing to spill if broken), <i>(1)</i> easy to read and give quick results. <i>(1)</i> Mercury ones are accurate but risky if broken.</p>
+ </div></details>
+
+ <details><summary>Model 6 — “Why” answer (3 marks)</summary><div class="body">
+  <p><b>Q.</b> Why should a laboratory thermometer not be used to measure body temperature?</p>
+  <p>A laboratory thermometer has <b>no kink</b> (constriction) in its tube. <i>(1)</i> In a clinical thermometer the kink stops the mercury from falling back quickly once removed from the body, so the reading stays steady. <i>(1)</i> Without it, the mercury falls at once and the reading is inaccurate. <i>(1)</i></p>
+ </div></details>
+</section>
+
+<section id="practice">
+ <h2>5 · Practice Worksheet</h2>
+ <p class="noprint">Answer on the lines, then open the Answer Key (Section 6). Write full working, the way it is done in the Model Answers.</p>
+
+ <h3>Part A — Very Short Answers <span class="marks">1 mark each</span></h3>
+ <ol>
+  <li>The SI unit of temperature is <span class="fill"></span> and the SI unit of heat is <span class="fill"></span>.</li>
+  <li>1 calorie = <span class="fill"></span> joules.</li>
+  <li>The lower fixed point on the Celsius scale is <span class="fill"></span> and the upper fixed point on the Fahrenheit scale is <span class="fill"></span>.</li>
+  <li>The Celsius scale is divided into <span class="fill"></span> equal parts; the Fahrenheit scale into <span class="fill"></span>.</li>
+  <li>Convert 0 °C into kelvin. <span class="fill"></span></li>
+  <li>Normal human body temperature in °C is <span class="fill"></span>.</li>
+  <li>Which mode of heat transfer can take place in a vacuum? <span class="fill"></span></li>
+  <li>Which mode mainly occurs in liquids and gases? <span class="fill"></span></li>
+  <li>True or false: A thermometer measures heat. <span class="fill"></span></li>
+  <li>Name the instrument that records the highest and lowest temperature of a day. <span class="fill"></span></li>
+ </ol>
+
+ <h3>Part B — Short Answers <span class="marks">2–3 marks each</span></h3>
+ <p class="q">B1. Define heat and temperature. <small>(2)</small></p><textarea></textarea>
+ <p class="q">B2. Differentiate between heat and temperature (any three points). <small>(3)</small></p><textarea class="big"></textarea>
+ <p class="q">B3. State the points that describe the flow of heat from one body to another. <small>(3)</small></p><textarea class="big"></textarea>
+ <p class="q">B4. State the principle of a thermometer and name its main parts. <small>(3)</small></p><textarea class="big"></textarea>
+ <p class="q">B5. Give three reasons for using mercury in thermometers. <small>(3)</small></p><textarea></textarea>
+ <p class="q">B6. Give three reasons for using alcohol in thermometers. <small>(3)</small></p><textarea></textarea>
+ <p class="q">B7. Differentiate between a clinical thermometer and a laboratory thermometer. <small>(3)</small></p><textarea class="big"></textarea>
+ <p class="q">B8. Define lower fixed point and upper fixed point. <small>(2)</small></p><textarea></textarea>
+ <p class="q">B9. Define conduction, convection and radiation with one example each. <small>(3)</small></p><textarea class="big"></textarea>
+ <p class="q">B10. Differentiate between conductors and insulators with two examples each. <small>(3)</small></p><textarea class="big"></textarea>
+ <p class="q">B11. What is the principle of calorimetry? <small>(2)</small></p><textarea></textarea>
+ <p class="q">B12. Write any four effects of heat energy. <small>(2)</small></p><textarea></textarea>
+
+ <h3>Part C — Numerical Problems <span class="marks">3–4 marks each</span></h3>
+ <p class="noprint"><i>Use the 4 steps: Given → Formula → Substitution → Answer with unit/scale.</i></p>
+ <p class="q">C1. Convert 40 °C into the Fahrenheit scale. <small>(3)</small></p><textarea></textarea>
+ <p class="q">C2. Convert 98.6 °F into the Celsius scale. <small>(3)</small></p><textarea></textarea>
+ <p class="q">C3. Convert 27 °C into kelvin. <small>(2)</small></p><textarea></textarea>
+ <p class="q">C4. Express 323 K in °C and then in °F. <small>(4)</small></p><textarea class="big"></textarea>
+ <p class="q">C5. A faulty thermometer has its fixed points marked as 5° and 95°. It reads 59° for a body. Find the correct temperature on the Celsius scale. <small>(4)</small></p><textarea class="big"></textarea>
+ <p class="q">C6. A faulty thermometer has its fixed points marked as 20° and 110°. The temperature of a body measured by it is 74°. Find the correct temperature on the Celsius scale. <small>(4)</small></p><textarea class="big"></textarea>
+ <p class="q">C7. Express 100 °F in degrees Reaumur. <small>(3)</small></p><textarea></textarea>
+ <p class="q">C8. Express 200 K in °C. <small>(2)</small></p><textarea></textarea>
+ <p class="q">C9. A hot body loses 200 cal of heat to a cold body and no heat is lost to the surroundings. How much heat does the cold body gain, in cal and in joules? <small>(3)</small></p><textarea></textarea>
+ <p class="q">C10. Convert 2 kilocalories into joules (1 kcal = 4180 J). <small>(2)</small></p><textarea></textarea>
+
+ <h3>Part D — Table Questions <span class="marks">3 marks</span></h3>
+ <p class="q">D1. Complete the table of fixed points. <small>(3)</small></p>
+ <table>
+  <tr><th>Scale</th><th>Ice point</th><th>Steam point</th><th>No. of divisions</th></tr>
+  <tr><td>Celsius</td><td><span class="fill" style="min-width:50px"></span></td><td><span class="fill" style="min-width:50px"></span></td><td><span class="fill" style="min-width:50px"></span></td></tr>
+  <tr><td>Fahrenheit</td><td><span class="fill" style="min-width:50px"></span></td><td><span class="fill" style="min-width:50px"></span></td><td><span class="fill" style="min-width:50px"></span></td></tr>
+  <tr><td>Reaumur</td><td><span class="fill" style="min-width:50px"></span></td><td><span class="fill" style="min-width:50px"></span></td><td><span class="fill" style="min-width:50px"></span></td></tr>
+  <tr><td>Kelvin</td><td><span class="fill" style="min-width:50px"></span></td><td><span class="fill" style="min-width:50px"></span></td><td><span class="fill" style="min-width:50px"></span></td></tr>
+ </table>
+ <p class="q">D2. Name the mode of heat transfer: conduction (CD), convection (CV) or radiation (R). <small>(3)</small></p>
+ <table>
+  <tr><td>Ironing clothes <span class="fill"></span></td><td>Heat from the Sun reaching Earth <span class="fill"></span></td></tr>
+  <tr><td>Boiling water in a pan <span class="fill"></span></td><td>Microwave oven heating food <span class="fill"></span></td></tr>
+  <tr><td>Hand holding an ice cube <span class="fill"></span></td><td>Sea currents <span class="fill"></span></td></tr>
+ </table>
+ <p class="q">D3. Write C (conductor) or I (insulator). <small>(3)</small></p>
+ <table>
+  <tr><td>Copper <span class="fill"></span></td><td>Rubber <span class="fill"></span></td></tr>
+  <tr><td>Thermocol <span class="fill"></span></td><td>Aluminium <span class="fill"></span></td></tr>
+  <tr><td>Wood <span class="fill"></span></td><td>Steel <span class="fill"></span></td></tr>
+ </table>
+
+ <h3>Part E — Think &amp; Reason (HOTS) <span class="marks">3 marks each</span></h3>
+ <p class="q">E1. Why are cooking utensils made of metal but their handles of plastic or wood? <small>(3)</small></p><textarea></textarea>
+ <p class="q">E2. Why does a person standing near a fire feel warm? Name the mode of heat transfer. <small>(3)</small></p><textarea></textarea>
+ <p class="q">E3. Why do we feel more heat when wearing black clothes in sunlight? <small>(3)</small></p><textarea></textarea>
+ <p class="q">E4. A vacuum flask keeps hot liquids hot for a long time. Why? <small>(3)</small></p><textarea></textarea>
+ <p class="q">E5. Why do we wear woollen clothes in winter? <small>(3)</small></p><textarea></textarea>
+ <p class="q">E6. In Activity 4.1, your left finger is in cold water and your right finger in hot water. You then put both in normal water. What do you feel and what do you conclude? <small>(3)</small></p><textarea class="big"></textarea>
+ <p class="q">E7. When a thermometer is taken out of hot water, the mercury thread slowly falls. Why? <small>(3)</small></p><textarea></textarea>
+ <p class="q">E8. During the day, the air above land rises near the sea shore. Explain why, naming the mode of heat transfer. <small>(3)</small></p><textarea></textarea>
+ <p class="q">E9. A student says, “Mercury is dangerous. Why do we still use mercury thermometers?” How would you reply? <small>(3)</small></p><textarea class="big"></textarea>
+</section>
+
+<section id="key">
+ <h2>6 · Answer Key &amp; Marking Points</h2>
+ <p class="noprint">Try everything first. Compare your working step by step.</p>
+
+ <details><summary>Part A answers</summary><div class="body">
+  <ol>
+   <li>kelvin (K); joule (J)</li><li>4.18 J</li><li>0 °C; 212 °F</li><li>100; 180</li>
+   <li>0 + 273 = <b>273 K</b></li><li>36.9 °C</li><li>Radiation</li><li>Convection</li>
+   <li>False. It measures temperature, not heat.</li><li>Six's maximum and minimum thermometer</li>
+  </ol>
+ </div></details>
+
+ <details><summary>Part B answers</summary><div class="body">
+  <div class="ans"><b>B1.</b> Heat is a form of energy that gives the sensation of hotness or coldness. Temperature is the degree of hotness or coldness of an object.</div>
+  <div class="ans"><b>B2.</b> Heat: a form of energy; unit joule/calorie; cause of hot/cold sensation. Temperature: degree of hotness/coldness; unit kelvin/°C; measured by a thermometer.</div>
+  <div class="ans"><b>B3.</b> (i) Heat flows from higher to lower temperature until equilibrium. (ii) At equilibrium, heat does not flow. (iii) The rate of flow depends on the temperature difference. (iv) Heat lost by hot body = heat gained by cold body.</div>
+  <div class="ans"><b>B4.</b> Principle: liquids expand when heated and contract when cooled (thermal expansion). Parts: glass bulb with mercury/coloured alcohol, narrow capillary tube, stem with scale (°C/°F).</div>
+  <div class="ans"><b>B5.</b> Any three: needs little heat to expand; boils at 357 °C so measures high temperatures; freezes at −39 °C; does not stick to the glass; opaque, shiny and expands uniformly.</div>
+  <div class="ans"><b>B6.</b> Freezing point below −100 °C; expands more than mercury for the same change, so more accurate; can be coloured and seen easily; safer than mercury.</div>
+  <div class="ans"><b>B7.</b> Clinical: body temperature, range 35–42 °C, has a kink. Laboratory: other substances, range −10 to 110 °C, no kink.</div>
+  <div class="ans"><b>B8.</b> LFP: melting point of pure ice at normal atmospheric pressure (0 °C). UFP: boiling point of pure water at normal atmospheric pressure (100 °C).</div>
+  <div class="ans"><b>B9.</b> Conduction: transfer of energy between particles in direct contact (ironing clothes). Convection: movement of fluid molecules from higher to lower temperature regions (boiling water). Radiation: heat transfer by electromagnetic waves without a medium (Sun's heat).</div>
+  <div class="ans"><b>B10.</b> Conductors allow heat to pass easily (copper, iron); insulators do not (wood, plastic). Conductors have closely packed particles / free electrons; insulators have loosely arranged particles.</div>
+  <div class="ans"><b>B11.</b> Heat energy given out by the hot body = heat energy absorbed by the cold body.</div>
+  <div class="ans"><b>B12.</b> Change in temperature; change in dimensions; change in state; chemical change.</div>
+ </div></details>
+
+ <details><summary>Part C answers</summary><div class="body">
+  <div class="ans"><b>C1.</b> F = (9/5)(40) + 32 = 72 + 32 = <b>104 °F</b>.</div>
+  <div class="ans"><b>C2.</b> C = (5/9)(98.6 − 32) = (5/9)(66.6) = <b>37 °C</b>.</div>
+  <div class="ans"><b>C3.</b> K = 27 + 273 = <b>300 K</b>.</div>
+  <div class="ans"><b>C4.</b> C = 323 − 273 = <b>50 °C</b>. F = (9/5)(50) + 32 = 90 + 32 = <b>122 °F</b>.</div>
+  <div class="ans"><b>C5.</b> (59 − 5)/(95 − 5) × 100 = 54/90 × 100 = <b>60 °C</b>.</div>
+  <div class="ans"><b>C6.</b> (74 − 20)/(110 − 20) × 100 = 54/90 × 100 = <b>60 °C</b>.</div>
+  <div class="ans"><b>C7.</b> F = 100: (F − 32)/180 = R/80 ⇒ 68/180 = R/80 ⇒ R = 68 × 80/180 = <b>30.2 °R</b> (approx.).</div>
+  <div class="ans"><b>C8.</b> C = 200 − 273 = <b>−73 °C</b>.</div>
+  <div class="ans"><b>C9.</b> Heat gained = heat lost = <b>200 cal</b>. In joules: 200 × 4.18 = <b>836 J</b>.</div>
+  <div class="ans"><b>C10.</b> 2 × 4180 = <b>8360 J</b>.</div>
+ </div></details>
+
+ <details><summary>Part D answers</summary><div class="body">
+  <div class="ans"><b>D1.</b> Celsius 0, 100, 100 · Fahrenheit 32, 212, 180 · Reaumur 0, 80, 80 · Kelvin 273, 373, 100.</div>
+  <div class="ans"><b>D2.</b> (row by row) CD, R, CV, R, CD, CV.</div>
+  <div class="ans"><b>D3.</b> (row by row) C, I, I, C, I, C.</div>
+ </div></details>
+
+ <details><summary>Part E answers</summary><div class="body">
+  <div class="ans"><b>E1.</b> Metals are good conductors, so heat passes quickly to the food. Plastic/wood are insulators, so they do not pass heat and the handle can be held safely.</div>
+  <div class="ans"><b>E2.</b> By <b>radiation</b>. Heat reaches the person as electromagnetic waves, not through direct contact or air movement.</div>
+  <div class="ans"><b>E3.</b> Black surfaces absorb more radiation from the Sun, so more heat energy is gained and we feel hotter.</div>
+  <div class="ans"><b>E4.</b> It reduces conduction, convection and radiation, so heat cannot easily escape from the liquid (or enter it).</div>
+  <div class="ans"><b>E5.</b> Wool is a heat insulator. It reduces heat loss from our body to the cold surroundings, keeping us warm.</div>
+  <div class="ans"><b>E6.</b> The left finger feels the water warm and the right finger feels it cold, though both are in the same water. Conclusion: we cannot judge hotness or coldness correctly by touch; a thermometer is needed.</div>
+  <div class="ans"><b>E7.</b> The mercury contracts when it cools, so the thread falls and the thermometer shows a lower temperature as it cools.</div>
+  <div class="ans"><b>E8.</b> Land heats up, and the air above it gets hot and expands, so it becomes less dense and rises. This is <b>convection</b>; cooler air moves in to take its place.</div>
+  <div class="ans"><b>E9.</b> Appreciate the question first. Mercury expands uniformly, does not stick to glass and gives accurate readings. But it is toxic, so many places prefer digital or alcohol thermometers; handle it carefully and teach safe laboratory practice.</div>
+ </div></details>
+</section>
+
+<section id="check">
+ <h2>7 · Before You Hand In: Self-Check</h2>
+ <ul class="tick">
+  <li>Did I write Given, Formula, Substitution and Answer in every numerical?</li>
+  <li>Did I write the scale or unit (°C, °F, K, J, cal) with every answer?</li>
+  <li>Did I use K = °C + 273 and F = (9/5)C + 32 correctly?</li>
+  <li>Did I give an example for each definition?</li>
+  <li>Did I write at least 3 points in each “differentiate” answer?</li>
+  <li>Did I give a reason after “because” in every “why” answer?</li>
+  <li>Did I keep heat (energy) and temperature (hotness) separate?</li>
+  <li>Did I underline my final answer?</li>
+ </ul>
+ <div class="tools noprint">
+  <button onclick="window.print()">Print worksheet</button>
+  <button class="alt" onclick="document.querySelectorAll('textarea').forEach(t=>t.value='')">Clear all answers</button>
+ </div>
+</section>
+
+<footer>Class 7 Physics · Heat and Temperature · Practice worksheet</footer>
+</div>
+</body>
+</html>
